@@ -34,3 +34,15 @@ create table issues(
 
 select* from issues; 
 
+create table student(
+	id int,
+	name varchar(20),
+	rn int,
+    batch int
+);
+
+create table teacher(
+	tid int,
+	name varchar(20) ,
+	faculty varchar(20) 
+);
