@@ -24,6 +24,10 @@ t.name like 's%';
 
 select teacher.name from teacher, employee where teacher.name = employee.ename limit 3;
 
+select t.name, b.bname 
+from teacher as t, bookid as b
+where b.author = t.name; 
+
 select* from employee;
 select* from bookid;
 select* from issues;
